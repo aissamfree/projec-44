@@ -57,7 +57,7 @@ string  get_day_week(en_day_week_menue day_week_menue)
         break;
 
     case en_day_week_menue::sat:
-        cout << " saturday" ;
+        return " saturday" ;
         break;
 
     default:
