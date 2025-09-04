@@ -11,31 +11,31 @@ int main()
 
         switch (day) {
 
-        case (day = 1):
+        case 1:
             cout << "it is sunday" << endl;
             break;
 
-        case (day = 2):
+        case 2:
             cout <<  "it is monday" << endl;
             break;
 
-        case  (day == 3):
+        case  3:
             cout <<  "it is tuesday"  << endl;
             break;
 
-        case (day = 4):
+        case 4:
             cout << "it is wednesday"  << endl;
             break;
 
-        case (day = 5):
+        case  5:
             cout << "it is thursday" << endl;
             break;
 
-        case (day = 6):
+        case  6:
                 cout << "it is friday" << endl;
                 break;
 
-        case (day = 7):
+        case 7:
             cout << "it is saturday" << endl;
             break;
 
