@@ -9,46 +9,40 @@ int main()
     cin >> day;
 
 
-    if (day = 1)
-    {
-        
-        cout << "it is sunday"  << endl;
-    }
-    else if (day = 2)
-    {
+        switch (day) {
 
-        cout << "it is monday" << endl;
-    }
-    else if (day = 3)
-    {
+        case (day = 1):
+            cout << "it is sunday" << endl;
+            break;
 
-        cout << "it is tuesday" << endl;
-    }
-    else if (day = 4)
-    {
+        case (day = 2):
+            cout <<  "it is monday" << endl;
+            break;
 
-        cout << "it is wednesday" << endl;
-    }
-    else if (day = 5)
-    {
+        case  (day == 3):
+            cout <<  "it is tuesday"  << endl;
+            break;
 
-        cout << "it is monday" << endl;
-    }
-    else if (day = 6)
-    {
+        case (day = 4):
+            cout << "it is wednesday"  << endl;
+            break;
 
-        cout << "it is friday" << endl;
-    }
-    else if (day = 7)
-    {
+        case (day = 5):
+            cout << "it is thursday" << endl;
+            break;
 
-        cout << "it is saturday" << endl;
-    }
-    else 
-    {
+        case (day = 6):
+                cout << "it is friday" << endl;
+                break;
 
-        cout << "wrong day" << endl;
-    }
+        case (day = 7):
+            cout << "it is saturday" << endl;
+            break;
 
+        default:
+            cout << "wrong day" << endl;
+
+        }
+ 
     return 0;
 }
